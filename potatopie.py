@@ -59,7 +59,6 @@ def game():
       restart(score, high_score)
 
     if potato_x >= 500:
-      print("debugger")
       potato_x = 10
 
     if potato_x <= 0:
